@@ -3,7 +3,7 @@
 
 
 ## Sobre o Projeto 
-Este **Sistema de cadastro de alunos**  é uma aplicação FullStrack desenvolvida como um projeto de revisão do conteúdo no curso de Desenvolvimento de Sistemas, oferecido pelo SENAI Sorocaba - Gaspar Ricardo Junior, ministrad pelo Prof. [Vedilson Prado](https://github.com/vedilsonpradro). O objetivo do projeto é consolidar conhecimentos em criação de API RestFull, manipulação de Banco de Dados Reçacional e integração com o Frontend usando JavaScript.
+Este **Sistema de cadastro de alunos**  é uma aplicação FullStrack desenvolvida como um projeto de revisão do conteúdo no curso de Desenvolvimento de Sistemas, oferecido pelo SENAI Sorocaba - Gaspar Ricardo Junior, ministrad pelo Prof. [Vedilson Prado](https://github.com/vedilsonprado). O objetivo do projeto é consolidar conhecimentos em criação de API RestFull, manipulação de Banco de Dados Reçacional e integração com o Frontend usando JavaScript.
 
 A aplicação permite o gerenciamento completo(CRUD) de alunos, incluindo validações de regras de negócio e persistência de dados.
 
