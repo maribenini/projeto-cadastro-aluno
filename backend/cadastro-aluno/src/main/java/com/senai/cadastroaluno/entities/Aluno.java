@@ -27,7 +27,8 @@ public class Aluno {
 	//Construtores
 	public Aluno() {}
 		
-		public Aluno(String nomeAluno, String turma, String ra) {
+		public Aluno(Long idAluno, String nomeAluno, String turma, String ra) {
+			this.idAluno = idAluno;
 			this.nomeAluno = nomeAluno;
 			this.turma = turma;
 			this.ra = ra;

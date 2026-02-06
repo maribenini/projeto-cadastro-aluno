@@ -14,7 +14,7 @@ async function atualizarAluno(id, aluno){
     });
 
     document.getElementById('alunoId').value = '';
-    document.getElementById('alunoForm').requestFullscreen();
+    document.getElementById('alunoForm').reset();
 
     carregarTabela();
 }
