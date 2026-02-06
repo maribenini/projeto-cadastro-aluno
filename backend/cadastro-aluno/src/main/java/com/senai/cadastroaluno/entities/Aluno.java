@@ -18,7 +18,7 @@ public class Aluno {
 	@NotBlank(message = "O nome é obrigatório.")
 	private String nomeAluno;
 	
-	@NotBlank(message = "A turma é obrigatório.")
+	@NotBlank(message = "A turma é obrigatória.")
 	private String turma;
 	
 	@NotBlank(message = "RA é obrigatório.")
@@ -26,45 +26,46 @@ public class Aluno {
 	
 	//Construtores
 	public Aluno() {}
-		
-		public Aluno(Long idAluno, String nomeAluno, String turma, String ra) {
-			this.idAluno = idAluno;
-			this.nomeAluno = nomeAluno;
-			this.turma = turma;
-			this.ra = ra;
-		}
+	
+	public Aluno(String nomeAluno, String turma, String ra) {
+		this.nomeAluno = nomeAluno;
+		this.turma = turma;
+		this.ra = ra;
+	}
+	
+	//Getters e Setters
 
-		//Getters e Setters
-		
-		public Long getIdAluno() {
-			return idAluno;
-		}
+	public Long getIdAluno() {
+		return idAluno;
+	}
 
-		public void setIdAluno(Long idAluno) {
-			this.idAluno = idAluno;
-		}
+	public void setIdAluno(Long idAluno) {
+		this.idAluno = idAluno;
+	}
 
-		public String getNomeAluno() {
-			return nomeAluno;
-		}
+	public String getNomeAluno() {
+		return nomeAluno;
+	}
 
-		public void setNomeAluno(String nomeAluno) {
-			this.nomeAluno = nomeAluno;
-		}
+	public void setNomeAluno(String nomeAluno) {
+		this.nomeAluno = nomeAluno;
+	}
 
-		public String getTurma() {
-			return turma;
-		}
+	public String getTurma() {
+		return turma;
+	}
 
-		public void setTurma(String turma) {
-			this.turma = turma;
-		}
+	public void setTurma(String turma) {
+		this.turma = turma;
+	}
 
-		public String getRa() {
-			return ra;
-		}
+	public String getRa() {
+		return ra;
+	}
 
-		public void setRa(String ra) {
-			this.ra = ra;
-		}
+	public void setRa(String ra) {
+		this.ra = ra;
+	}
+	
+	
 }
